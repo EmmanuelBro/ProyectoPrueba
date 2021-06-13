@@ -16,6 +16,10 @@ function resta(numeroA, numeroB){
     console.log(numeroA - numeroB);
 }
 
+function division(numeroA, numeroB){
+    console.log(numeroA * numeroB);
+}
+
 calcular();
 
 
