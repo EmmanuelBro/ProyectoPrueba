@@ -3,24 +3,19 @@ var b = 1;
 
 
 
-function calcularSuma(){
+function calcular(){
     suma(a,b)
+    resta(a,b)
 }
 
 function suma(numeroA, numeroB){
     console.log(numeroA + numeroB);
 }
 
-
-calcularSuma();
-
-function calcularResta(){
-    resta(a,b)
-}
-
 function resta(numeroA, numeroB){
     console.log(numeroA - numeroB);
 }
 
+calcular();
 
-calcularResta();
+
