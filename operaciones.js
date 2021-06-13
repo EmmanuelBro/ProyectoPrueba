@@ -3,7 +3,7 @@ var b = 1;
 
 
 
-function calcular(){
+function calcularSuma(){
     suma(a,b)
 }
 
@@ -12,4 +12,15 @@ function suma(numeroA, numeroB){
 }
 
 
-calcular();
+calcularSuma();
+
+function calcularResta(){
+    resta(a,b)
+}
+
+function resta(numeroA, numeroB){
+    console.log(numeroA - numeroB);
+}
+
+
+calcularResta();
