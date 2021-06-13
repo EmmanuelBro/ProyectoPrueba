@@ -5,11 +5,17 @@ var b = 1;
 
 function calcular(){
     suma(a,b)
+    resta(a,b)
 }
 
 function suma(numeroA, numeroB){
     console.log(numeroA + numeroB);
 }
 
+function resta(numeroA, numeroB){
+    console.log(numeroA - numeroB);
+}
 
 calcular();
+
+
